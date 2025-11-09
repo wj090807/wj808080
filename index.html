@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>寻梦科技</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            /* 背景图更改区域：替换url中的链接即可更换背景 */
+            background: url(https://s21.ax1x.com/2025/11/09/pZ9ChRJ.jpg) no-repeat center center fixed;
+            background-size: cover;
+            color: #fff;
+            font-family: "Microsoft YaHei", sans-serif;
+        }
+        .container {
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+            padding: 20px;
+            box-sizing: border-box;
+            position: relative;
+        }
+        .container::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0,0,0,0.7);
+            z-index: 0;
+        }
+        /* 头像区域：点击头像可跳转 */
+        .avatar-link {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            border: 2px solid #fff;
+            overflow: hidden;
+            z-index: 1;
+            cursor: pointer; /* 鼠标悬停显示手型 */
+        }
+        /* 头像图片更改区域：替换src中的链接更换头像 */
+        .avatar {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .title {
+            font-size: 24px;
+            font-weight: bold;
+            text-align: center;
+            margin-top: 10px;
+            z-index: 1;
+        }
+        .desc {
+            font-size: 14px;
+            text-align: center;
+            margin: 10px 0;
+            z-index: 1;
+        }
+        .link-box {
+            width: 80%;
+            max-width: 400px;
+            border: 1px solid #fff;
+            border-radius: 4px;
+            overflow: hidden;
+            margin: 20px 0;
+            z-index: 1;
+        }
+        .link-item {
+            padding: 15px;
+            border-bottom: 1px solid #fff;
+            text-align: center;
+            cursor: pointer; /* 鼠标悬停显示手型 */
+        }
+        .link-item:last-child {
+            border-bottom: none;
+        }
+        /* 隐藏链接样式：去除下划线，颜色与文本一致 */
+        .hidden-link {
+            color: inherit;
+            text-decoration: none;
+            display: block; /* 使整个区域可点击 */
+            width: 100%;
+            height: 100%;
+        }
+        /* 动态广播样式 */
+        .broadcast {
+            width: 100%;
+            overflow: hidden;
+            z-index: 1;
+        }
+        .broadcast-content {
+            display: flex;
+            align-items: center;
+            white-space: nowrap;
+            animation: scroll 15s linear infinite;
+        }
+        .broadcast-text {
+            font-size: 18px;
+            color: #ff0000;
+            font-weight: bold;
+            margin: 0 20px;
+        }
+        @keyframes scroll {
+            0% { transform: translateX(100%); }
+            100% { transform: translateX(-100%); }
+        }
+        .footer {
+            font-size: 12px;
+            text-align: center;
+            margin-bottom: 10px;
+            z-index: 1;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- 头像点击链接区域：将href替换为目标链接 -->
+        <a href=" " class="avatar-link">
+            <!-- 头像图片更改：替换src中的链接 -->
+            <img src="<a href="<a href="<a href="https://imgchr.com/i/pZ9PPdf"><img src="https://s21.ax1x.com/2025/11/09/pZ9PPdf.jpg" alt="pZ9PPdf.jpg" border="0" /></a>"
+        </a>
+
+        <div class="title">【新】寻梦科技-AMG三角洲</div>
+        <div class="desc">★【24小时自助购买、下载、一键奔放！请点击下方链接进入网页。记得保存本网站防失联】★</div>
+        
+        <div class="link-box">
+            <!-- 卡密购买链接：替换href中的链接 -->
+            <div class="link-item">
+                <a href="https://example.com/card-link" class="hidden-link">卡密购买链接 (推荐)</a>
+            </div>
+            <div class="link-item">记得一定要加Q群：658617044</div>
+            <!-- 小米下载地址链接：替换href中的链接 -->
+            <div class="link-item">
+                <a href="https://wwtu.lanzoue.com/b03nf673i" class="hidden-link">【小米】下载地址</a>
+            </div>
+            <!-- 棋魂下载链接：替换href中的链接 -->
+            <div class="link-item">
+                <a href="https://wwvn.lanzoup.com/b014wsqn0b" class="hidden-link">【棋魂】下载</a>
+            </div>
+        </div>
+
+        <!-- 动态广播区域 -->
+        <div class="broadcast">
+            <div class="broadcast-content">
+                <div class="broadcast-text">后QQ229877167 售后QQ群658617044</div>
+                <div class="broadcast-text">后QQ229877167 售后QQ群658617044</div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>(°Д°)つ友情链接：</p>
+            <p>COPYRIGHT 2025-2026寻梦科技版权所有</p>
+            <p>ICP备：赣ICP备8690002号-2</p>
+            <p>本站由寻梦科技版权所有提供云技术支持</p>
+        </div>
+    </div>
+</body>
+</html>
